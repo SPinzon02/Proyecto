@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Medico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Registrar Médicos</h1>
+    </header>
+    <main>
+        <h2>Ingrese los datos del Médico</h2>
+        <form id="formulario-medicos">
+            <label for="nombre-medico">Nombre Médico<span>*</span> </label> 
+            <input type="text" id="nombre-medico" placeholder="Ingrese el nombre del médico" required>
+            <label for="apellido">Apellido Médico<span>*</span> </label> 
+            <input type="text" id="apellido-medico" placeholder="Ingrese el apellido del médico"required>
+            <label for="cedula">Numero de Cedula<span>*</span> </label> 
+            <input type="text" id="cedula-medico" placeholder="Ingrese la cedula del médico" required>
+            <label for="consultorio">Consultorio<span>*</span> </label> 
+            <input type="text" id="consultorio" required placeholder="Ingrese el consultorio del médico">
+            <label for="correo">Correo de contacto<span>*</span> </label> 
+            <input type="text" id="correo-medico" placeholder="Ingrese correo del médico" required>
+            <label for="lista">Especialidad<span>*</span></label>
+            <select name="especialidad" id="especialidad">
+                <option value="">----Seleccione especialidad----</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiologia">Cardiología</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="Dermatologí">Dermatología</option>
+                <option value="Rehabilitación física">Rehabilitación física</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Odontología">Odontología</option>
+                <option value="Radiología">Radiología</option>
+            </select>
+            <div class="botones-form">
+                <input id="enviar" type="submit" value="Enviar datos">
+                <input id="limpiar" type="reset" value="Limpiar">
+            </div>  
+        </form>
+        <input id="volver" type="reset" value="Volver">
+    </main>
+    <script src="Js/volver.js"></script>
+    <script src="./Js/registromedicos.js"></script>
+</body>
+</html>
