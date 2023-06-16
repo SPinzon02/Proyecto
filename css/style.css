@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap');
+*{
+    
+    font-family: 'Darker Grotesque', sans-serif;
+    
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.bx{
+    
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+main{
+    padding-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    background-color:rgba(231, 229, 229, 0.5);
+    height:768px;
+    
+}
+.card-body h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+img{
+    margin: 0;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.botones a{
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.card{
+    transition: background-color 0.3s;
+}
+.card:hover{
+    background-color: blue;
+    
+}
+
