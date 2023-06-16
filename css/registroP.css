@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap');
+*{
+    
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    background-color:rgba(231, 229, 229, 0.5);
+    height:785px;
+    
+}
+
+form{
+    margin-top: 50px;
+    margin-right: 250px;
+    font-size: 25px;
+}
+input{
+    border-radius: 15px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+}
+select{
+    border-radius: 15px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px ;
+}
+h1{
+    position: absolute;
+    right: 430px;
+    top: 210px;
+    
+}
+.card-body h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px;
+    
+    
+}
